@@ -1,0 +1,615 @@
+body{
+    background-color: #BCE0DA;
+}
+
+/* Login */
+
+#tablaLogin{
+    margin: auto;
+}
+
+
+
+#lnkRegistrarUsuario{
+    text-align: right;
+    color: #0035B0;
+}
+
+.campoSinFoco{
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+.campoConFoco{
+    background: #F6F200;
+    border: 1px solid #000000;
+}
+
+
+/* Registrar usuario */
+
+.primeraColumna{
+    text-align: right;
+}
+
+#frmRegistrarUsuario{
+    background-color: #F5D3FF;
+}
+
+#tablaRegistrarUsuario{
+    margin: auto;
+}
+
+
+
+.Botones{
+    text-align: center;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+
+/* Catalogo */
+
+#frmCabecera{
+    width: 70%;
+    position: fixed;
+    top: 0px;
+    background-color: rgba(61, 3, 3,.9);
+
+    z-index: 50;
+}
+
+#tablaCabecera{
+    margin: auto;
+}
+
+#tablaCatalogo{
+    margin: auto;
+    position:center;
+}
+.colornav{
+    color: #ffffff;
+}
+.link{
+    color: #1013D0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+.BotonADD{
+    background-color: #198A40;
+    color: #FFFFFF;
+    width: 100px;
+    border-color: #198A40;
+    padding: 3px 2px 2px 2px;
+}
+
+.BotonModificar:hover{
+    cursor: pointer;
+}
+
+.BotonADD:hover{
+    cursor: pointer;
+}
+
+
+/* Menu administrador */
+
+
+
+
+
+/* Registrar Clase producto */
+
+#frmRegistrarCP{
+    background-color: #82F7F2;
+}
+
+#tablaRegistrarCP{
+    margin: auto;
+}
+
+
+/* Registrar Marca producto */
+
+#frmRegistrarMP{
+    background-color: #82F7F2;
+}
+
+#tablaRegistrarMP{
+    margin: auto;
+}
+
+
+/* Registrar producto */
+
+#frmRegistrarProd{
+    background-color:#dae2ef;
+}
+
+#tablaRegistrarProd{
+    margin: auto;
+}
+
+
+/* Mostrar clase producto */
+
+.Titulo{
+    background-color: #49C940;
+}
+
+#frmMostrarCabeceraCP{
+    background-color: #82F7F2;
+}
+
+#tablaMostrarCabeceraCP{
+    margin: auto;
+}
+
+#tablaMostrarCabeceraCP td{
+    text-align: center;
+}
+
+#tablaMostrarCuerpoCP{
+    margin: auto;
+    width: 50%;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+#tablaMostrarCuerpoCP td{
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+#tablaMostrarCuerpoCP th{
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #000000;
+}
+
+.Opcion{
+    width: 5%;
+}
+
+
+
+
+
+
+/* Mostrar marca producto */
+
+#frmMostrarCabeceraMP{
+    background-color: #82F7F2;
+}
+
+#tablaMostrarCabeceraMP{
+    margin: auto;
+}
+
+#tablaMostrarCabeceraMP td{
+    text-align: center;
+}
+
+#tablaMostrarCuerpoMP{
+    margin: auto;
+    width: 50%;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+#tablaMostrarCuerpoMP th{
+    border: 2px solid #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#tablaMostrarCuerpoMP td{
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+
+/* Mostrar productos */
+
+#frmMostrarCabeceraProd{
+    background-color: #82F7F2;
+}
+
+#tablaMostrarCabeceraProd{
+    margin: auto;
+}
+
+#tablaMostrarCabeceraProd td{
+    text-align: center;
+}
+
+#tablaMostrarCuerpoProd{
+    margin: auto;
+    width: 95%;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+#tablaMostrarCuerpoProd th{
+    border: 2px solid #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#tablaMostrarCuerpoProd td{
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+
+/* Mostrar clase productos eliminados */
+
+
+
+#frmMostrarCabeceraCPEliminados{
+    background-color: #FFC530;
+}
+
+#tablaMostrarCabeceraCPEliminados{
+    margin: auto;
+}
+
+#tablaMostrarCabeceraCPEliminados td{
+    text-align: center;
+}
+
+#tablaMostrarCuerpoCPEliminados{
+    margin: auto;
+    width: 50%;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+#tablaMostrarCuerpoCPEliminados th{
+    border: 2px solid #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#tablaMostrarCuerpoCPEliminados td{
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+
+/* Mostrar marca productos eliminados */
+
+#frmMostrarCabeceraMPEliminados{
+    background-color: #FFC530;
+}
+
+#tablaMostrarCabeceraMPEliminados{
+    margin: auto;
+}
+
+#tablaMostrarCabeceraMPEliminados td{
+    text-align: center;
+}
+
+#tablaMostrarCuerpoMPEliminados{
+    margin: auto;
+    width: 50%;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+#tablaMostrarCuerpoMPEliminados th{
+    border: 2px solid #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#tablaMostrarCuerpoMPEliminados td{
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+
+/* Mostrar productos eliminados */
+
+#frmMostrarCabeceraProdEliminados{
+    background-color: #FFC530;
+}
+
+#tablaMostrarCabeceraProdEliminados{
+    margin: auto;
+}
+
+#tablaMostrarCabeceraProdEliminados td{
+    text-align: center;
+}
+
+#tablaMostrarCuerpoProdEliminados{
+    margin: auto;
+    width: 95%;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+#tablaMostrarCuerpoProdEliminados th{
+    border: 2px solid #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#tablaMostrarCuerpoProdEliminados td{
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+
+/* Mostrar ventas */
+
+
+
+
+#frmMostrarCabeceraVenta{
+    background-color: #3EEA00;
+}
+
+#tablaMostrarCabeceraVenta{
+    margin: auto;
+}
+
+#tablaMostrarCabeceraVenta td{
+    text-align: center;
+}
+
+#tablaMostrarCuerpoVenta{
+    margin: auto;
+    width: 70%;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+#tablaMostrarCuerpoVenta th{
+    border: 2px solid #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#tablaMostrarCuerpoVenta td{
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+
+/* Mostrar detalle venta */
+
+#tablaRegresar{
+    margin: auto;
+}
+
+#frmMostrarDetalleVenta{
+    background-color: #88F9FF;
+}
+
+#tablaMostrarDetalleVenta{
+    margin: auto;
+    width: 70%;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+#tablaMostrarDetalleVenta th{
+    border: 2px solid #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+#tablaMostrarDetalleVenta td{
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+#tablaMostrarDetalleVenta div{
+    text-align: right;
+}
+
+.TituloDV{
+    background-color: #BDBDBD;
+}
+
+.FilaEnBlanco{
+    background-color: #CCCCCD;
+}
+
+.Contenido{
+    background-color: #FFFFFF;
+}
+
+#frmMostrarDatosCliente{
+    background-color: #ACEEFE;
+}
+
+#tablaMostrarDatosCliente{
+    margin: auto;
+}
+
+
+/* Modificar usuario */
+
+#frmModificarUsuario{
+    background-color: #66BB6A;
+}
+
+#tablaModificarUsuario{
+    margin: auto;
+}
+
+.Enlace{
+    font-size: 14px;
+    color: #D11B03;
+}
+
+
+/* Modificar email del usuario */
+
+#frmModificarEmail{
+    background-color: #D2E960;
+}
+
+#tablaModificarEmail{
+    margin: auto;
+}
+
+
+/* Modificar contraseña del usuario */
+
+#frmModificarClave{
+    background-color: #D2E960;
+}
+
+#tablaModificarClave{
+    margin: auto;
+}
+
+
+/* Añadir a carrito */
+
+#frmAnadirCarrito{
+    background-color: #85DCB8;
+}
+
+#tablaAnadirCarrito{
+    margin: auto;
+}
+
+
+/* Registrar venta */
+
+#frmRegistrarVenta{
+    background-color: #68BOAB;
+}
+
+#tablaRegistrarVenta{
+    margin: auto;
+    width: 85%;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+#tablaRegistrarVenta th{
+    border: 2px solid #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#tablaRegistrarVenta td{
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+#tablaRegistrarVenta div{
+    text-align: right;
+}
+
+
+
+/* Modificar CP */
+
+#frmModificarCP{
+    background-color: #3CC5CC;
+}
+
+#tablaModificarCP{
+    margin: auto;
+}
+
+
+/* Modificar MP */
+
+#frmModificarMP{
+    background-color: #3CC5CC;
+}
+
+#tablaModificarMP{
+    margin: auto;
+}
+
+
+/* Modificar producto */
+
+#frmModificarProd{
+    background-color: #fff;
+}
+
+#tablaModificarProd{
+    margin: auto;
+}
+
+
+/* Mostrar Usuario Habilitados */
+
+
+#frmMostrarCabeceraUsuario{
+    background-color: #82F7F2;
+}
+
+#tablaMostrarCabeceraUsuario{
+    margin: auto;
+}
+
+#tablaMostrarCabeceraUsuario td{
+    text-align: center;
+}
+
+#tablaMostrarCuerpoUsuario{
+    margin: auto;
+    width: 85%;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+#tablaMostrarCuerpoUsuario th{
+    border: 2px solid #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#tablaMostrarCuerpoUsuario td{
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+
+/* Mostrar Usuarios Eliminados */
+
+#frmMostrarCabeceraUsuarioEliminados{
+    background-color: #FFC530;
+}
+
+#tablaMostrarCabeceraUsuarioEliminados{
+    margin: auto;
+}
+
+#tablaMostrarCabeceraUsuarioEliminados td{
+    text-align: center;
+}
+
+#tablaMostrarCuerpoUsuarioEliminados{
+    margin: auto;
+    width: 80%;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+#tablaMostrarCuerpoUsuarioEliminados th{
+    border: 2px solid #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#tablaMostrarCuerpoUsuarioEliminados td{
+    border: 2px solid #000000;
+    text-align: center;
+}

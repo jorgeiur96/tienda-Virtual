@@ -1,0 +1,359 @@
+.mostrarOcultar{
+    display: none;
+}
+
+/* ========================================= General styles ======================================*/
+@font-face { 
+    font-family: "FontFamilyLogo";
+    src: url("../fonts/GOODTIME.ttf");
+}
+@font-face { 
+    font-family: "FontFamilySPro";
+    src: url("../fonts/SourceSansPro-Regular.otf");
+}
+body{
+    font-family: "FontFamilySPro";
+    line-height: 1.5;
+    font-size: 1.4em;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #fff;
+}
+.bien{
+    color: #red;
+    
+}
+
+
+.full-width{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.nav-wrapper{background-color: #6B0D7F;}
+
+.imglogo{
+    width: 23%;
+    margin-left: 2rem;
+}
+
+#button1{
+    height: 50px;
+    width: 130px;
+    color: #fff;
+    background-color: red;
+    border:0;
+
+}
+
+#button1:hover{
+
+background: #FA703E;
+ color: #FFF;
+ transition: all .3s ease-in-out;
+
+}
+/*///////////////////////// Estilos SLIDES /////////////////////////*/
+
+.mySlides {
+
+     float: none;
+    margin: 70px auto;
+    width: 800px;
+    height: 350px;
+
+
+}
+
+.mySlides1 {
+
+     float: none;
+    margin: 70px 0px 20px 0;
+    width: 700px;
+    height: 350px;
+
+
+}
+
+/*====== Pie de página*/
+.footer-MaterialDark{
+    background-color: #E466FF;
+    padding-top: 20px;
+    margin-top: 20px;
+    color: #fff;
+}
+.footer-copyright{
+    height: 50px;
+    line-height: 50px;
+    font-weight: 300;
+    
+}
+/*///////////////////////// Estilos login.html /////////////////////////*/
+.container-login{
+
+     float: none;
+    margin: 100px auto;
+    width: 300px;
+    height: 300px;
+}
+
+
+.footer__social{
+    align-items: center;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 50%;
+}
+.footer__social__link{
+    background-color: #ff6e40;
+    border-radius: 10%;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: .2rem .5rem;
+    text-decoration: none;
+    transition: all .2s ease;
+    margin-left: 0.8rem;
+
+}
+.footer__social__link:hover{
+    background-color: #ff9e80;
+    color: #2e3436;
+}
+
+
+/*///////////////////////// Estilos CARTA.html /////////////////////////*/
+
+
+
+.img1,.img2,.img3 {  transform: translateX(+65px);}
+.text1{    text-align: center; font-weight: bold;}
+.text2{    text-align: center; font-weight: normal; font-size: 20px;}
+.text4{color: #fff;}
+
+.portfolio .col
+{
+    margin-bottom: 24px;
+}
+
+.portfolio h4
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+
+.portfolio hr
+{
+    width: 40px;
+    margin-bottom: 45px;
+}
+
+.portfolio .portfolio-holder
+{
+    clear: both;
+    text-align: center;
+}
+
+.portfolio img
+{
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 25px;
+    margin-left: 15px;
+
+    float: left;
+}
+
+.about .card {text-align: center;margin-bottom: 2rem;}
+.about h6 {text-align: center;font-weight: bold;}
+
+.container_pedido{width: 50%;
+
+      margin: 0 auto;}
+
+nav{
+    width: 100%;
+    height: 15%;
+    position: fixed;
+    top: 0px;
+    background-color: rgba(61, 3, 3,.9);
+    box-shadow: 2px 0px 7px #000;
+	z-index: 50;
+}
+.contenedor-tabla{
+    display: table;
+    width: 100%;
+}
+.contenedor-tr {
+  display: table-row;
+  width: 100%;
+}
+.contenedor-tr > a{
+	text-decoration: none;
+	color: #fff;
+}
+.contenedor-tr > a:hover{
+	background-color: rgba(173, 0, 0,.7);
+    transition: background-color .4s ease-in;
+    -moz-transition: background-color .4s ease-in;
+    -webkit-transition: background-color .4s ease-in;
+    -ms-transition: background-color .4s ease-in;
+    -o-transition: background-color .4s ease-in;
+}
+.contenedor-tr > a:last-child{
+	border-right: 1px solid rgba(149, 165, 166,0.8);
+}
+.table-cell-td {
+  display: table-cell;
+  padding: 0px 35px;
+  border-left: 1px solid rgba(149, 165, 166,0.8);
+  text-align: center;
+  width: 30%;
+}
+.table-cell-td:focus{
+	outline: none;
+}
+.logo-navbar{
+    background-image: url(../assets/img/logo-navbar.png);
+    width: 59px;
+    height: 59px;
+    margin-left: 2%;
+    float: left;
+}
+.text-navbar{
+    color: #fff;
+    font-size: 19px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 15px;
+}
+#mobile-menu-list{
+	display: none;
+}
+section{
+    width: 100%;
+    margin: 0px;
+    padding: 90px 0px;
+}
+article{
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+}
+footer{
+    width: 100%;
+    color: #fff;
+    background-color: rgba(61, 3, 3,1);
+    padding: 40px 0px;
+}
+.social-icon{
+    margin: 7px 7px;
+    transition: opacity .4s ease-in;
+    -moz-transition: opacity .4s ease-in;
+    -webkit-transition: opacity .4s ease-in;
+    -o-transition: opacity .4s ease-in;
+    -ms-transition: opacity .4s ease-in;
+}
+.social-icon:hover{
+    text-decoration: none; 
+    opacity: 0.7;
+    transition: opacity .4s ease-in;
+    -moz-transition: opacity .4s ease-in;
+    -webkit-transition: opacity .4s ease-in;
+    -o-transition: opacity .4s ease-in;
+    -ms-transition: opacity .4s ease-in;
+    
+}
+.social-icon:focus{
+    outline: none;
+}
+.tittles-pages-logo{
+    font-family: "FontFamilyLogo";
+}
+.center-all-contens{
+    margin-left: auto;
+    margin-right: auto;
+}
+#carrito-compras-tienda{
+    width: 100%;
+    padding: 20px;
+}
+#container-carrito-compras{
+   background-color: rgb(43, 29, 29);
+   color:#fff;
+   display: none;
+}
+/* ========================================= index styles ======================================*/
+#container-page-index{
+    background-image: url(../assets/img/font-index.JPG);	
+}
+#jumbotron-index{
+    margin: 0px;
+    padding: 140px 25px;
+    color: #fff;
+    background-color: rgba(0,0,0,.7);
+}
+#new-prod-index{
+    background-color: rgba(255,255,255,.9);
+}
+#reg-info-index{
+    background-color: rgba(255,255,255,.9);
+    border-top: 1px solid rgba(183, 165, 165,.2);
+}
+#distribuidores-index{
+    background-color: rgba(186, 188, 171,.87);
+    color: #000;
+}
+/* ========================================= product styles ======================================*/
+#container-page-product{
+    background-image: url(../assets/img/font-index.JPG);
+}
+#store, #infoproduct, #container-pedido{
+    background-color: rgba(255,255,255,.97);
+    min-height: 900px;
+}
+/* ========================================= registration styles ======================================*/
+#container-page-registration{
+    background-image: url(../assets/img/font-registration.jpg);
+}
+#form-registration{
+    min-height: 900px;
+    background-color: rgba(255,255,255,.95);
+    padding-top: 120px;
+}
+#container-form{
+    width: 100%;
+    padding: 40px;
+    background-color: #333;
+    border-radius: 7px;
+}
+/* ========================================= configAdmin styles ======================================*/
+#container-page-configAdmin{
+    background-image: url(../assets/img/font-index.JPG);
+}
+#prove-product-cat-config{
+    background-color: #fff;
+    min-height: 900px;
+}
+#add-product,
+#del-prod-form,
+#add-categori,
+#del-categori,
+#add-provee,
+#del-prove,
+#add-admin,
+#del-admin,
+#del-pedido{
+    border: 1px solid #e0e1e1 !important;
+    border-radius: 4px;
+    padding: 10px;
+}
